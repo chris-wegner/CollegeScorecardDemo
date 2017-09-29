@@ -1,9 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
-  <!-- Add your custom configuration sections and parameters here -->
-  <!--
-  <Section Name="MyConfigSection">
-    <Parameter Name="MyParameter" Value="Value1" />
+  
+  <Section Name="UnitedStates">
+    <Parameter Name="Alabama" Value="AL" />
+    <Parameter Name="Alaska" Value="AK" />
+    <Parameter Name="Arizona" Value="AZ" />
+    <Parameter Name="Arkansas" Value="AR" />
+    <Parameter Name="California" Value="CA" />
+    <Parameter Name="Colorado" Value="CO" />
+    <Parameter Name="Connecticut" Value="CT" />
+    <Parameter Name="Delaware" Value="DE" />
+    <Parameter Name="Florida" Value="FL" />
+    <Parameter Name="Georgia" Value="GA" />
+    <Parameter Name="Hawaii" Value="HI" />
+    <Parameter Name="Idaho" Value="ID" />
+    <Parameter Name="Illinois" Value="IL" />
+    <Parameter Name="Indiana" Value="IN" />
+    <Parameter Name="Iowa" Value="IA" />
+    <Parameter Name="Kansas" Value="KS" />
+    <Parameter Name="Kentucky" Value="KY" />
+    <Parameter Name="Louisiana" Value="LA" />
+    <Parameter Name="Maine" Value="ME" />
+    <Parameter Name="Maryland" Value="MD" />
+    <Parameter Name="Massachusetts" Value="MA" />
+    <Parameter Name="Michigan" Value="MI" />
+    <Parameter Name="Minnesota" Value="MN" />
+    <Parameter Name="Mississippi" Value="MS" />
+    <Parameter Name="Missouri" Value="MO" />
+    <Parameter Name="Montana" Value="MT" />
+    <Parameter Name="Nebraska" Value="NE" />
+    <Parameter Name="Nevada" Value="NV" />
+    <Parameter Name="New Hampshire" Value="NH" />
+    <Parameter Name="New Jersey" Value="NJ" />
+    <Parameter Name="New Mexico" Value="NM" />
+    <Parameter Name="New York" Value="NY" />
+    <Parameter Name="North Carolina" Value="NC" />
+    <Parameter Name="North Dakota" Value="ND" />
+    <Parameter Name="Ohio" Value="OH" />
+    <Parameter Name="Oklahoma" Value="OK" />
+    <Parameter Name="Oregon" Value="OR" />
+    <Parameter Name="Pennsylvania" Value="PA" />
+    <Parameter Name="Rhode Island" Value="RI" />
+    <Parameter Name="South Carolina" Value="SC" />
+    <Parameter Name="South Dakota" Value="SD" />
+    <Parameter Name="Tennessee" Value="TN" />
+    <Parameter Name="Texas" Value="TX" />
+    <Parameter Name="Utah" Value="UT" />
+    <Parameter Name="Vermont" Value="VT" />
+    <Parameter Name="Virginia" Value="VA" />
+    <Parameter Name="Washington" Value="WA" />
+    <Parameter Name="West Virginia" Value="WV" />
+    <Parameter Name="Wisconsin" Value="WI" />
+    <Parameter Name="Wyoming" Value="WY" />
   </Section>
-  -->
+  
 </Settings>
