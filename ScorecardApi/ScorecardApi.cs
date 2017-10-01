@@ -42,6 +42,7 @@ namespace ScorecardApi
                                     .ConfigureServices(
                                         services => services
                                             .AddSingleton<StatelessServiceContext>(serviceContext)
+                                            .AddSingleton<ISchoolRepository,SchoolRepository>()
                                             .AddSingleton<IStateRepository, StateRepository>())
                                     .UseContentRoot(Directory.GetCurrentDirectory())
                                     .UseStartup<Startup>()

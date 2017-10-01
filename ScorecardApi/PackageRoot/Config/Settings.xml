@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.microsoft.com/2011/01/fabric">
-  
+
+  <Section Name="ScorecardApi">
+    <Parameter Name="ApiKey" Value="YouNeedToObtainAKey" /> <!-- API Key has been excluded, a free key can be obtained by filling out the form at: https://api.data.gov/signup -->
+    <Parameter Name="BaseUrl" Value="https://api.data.gov/ed/collegescorecard/v1/schools/" />
+    <Parameter Name="BaseQueryString" Value="?2015.academics.program_available.assoc_or_bachelors=true" />
+    <Parameter Name="QueryFields" Value="&amp;fields=id%2Cschool.name%2Cschool.city%2Cschool.state%2Cschool.zip%2C2015.student.demographics.men%2C2015.student.demographics.women%2C2015.student.size%2C2015.cost.avg_net_price.overall%2C2015.completion.rate_suppressed.overall%2C2013.earnings.6_yrs_after_entry.median%2C2013.earnings.10_yrs_after_entry.median%2C2015.aid.loan_principal" />
+    <Parameter Name="QuerySort" Value="&amp;sort=school.name" />
+    <Parameter Name="PageSize" Value="25" />
+  </Section>
   <Section Name="UnitedStates">
     <Parameter Name="Alabama" Value="AL" />
     <Parameter Name="Alaska" Value="AK" />
