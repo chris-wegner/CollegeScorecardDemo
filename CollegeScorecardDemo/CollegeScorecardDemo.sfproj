@@ -33,6 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ScorecardApi\ScorecardApi.csproj" />
+    <ProjectReference Include="..\ScorecardSite\ScorecardSite.csproj" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <PropertyGroup>
